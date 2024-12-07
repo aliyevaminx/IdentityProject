@@ -1,0 +1,7 @@
+﻿Home
+
+@if (User.Identity.IsAuthenticated)
+{
+	<p>Welcom, @User.Identity.Name</p>
+	<a asp-action="LogOut" asp-controller="Account">Log Out</a>
+}
