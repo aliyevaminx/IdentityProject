@@ -1,8 +1,12 @@
 using IdentityProject;
 using IdentityProject.Data;
 using IdentityProject.Entities;
+using IdentityProject.Utilities.EmailHandler.Abstract;
+using IdentityProject.Utilities.EmailHandler.Concrete;
+using IdentityProject.Utilities.EmailHandler.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
@@ -16,8 +20,12 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
     options.Password.RequireUppercase = false;
     options.Password.RequiredLength = 8;
     options.User.RequireUniqueEmail = true;
-}).AddEntityFrameworkStores<AppDbContext>();
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
+
+var emailConfiguration = builder.Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
+builder.Services.AddSingleton(emailConfiguration);
+builder.Services.AddSingleton<IEmailService, EmailService>();
 
 var app = builder.Build();
 

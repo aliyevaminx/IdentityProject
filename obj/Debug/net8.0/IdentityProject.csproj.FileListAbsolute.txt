@@ -261,3 +261,8 @@ C:\Users\Amin\source\repos\IdentityProject\bin\Debug\net8.0\runtimes\win\lib\net
 C:\Users\Amin\source\repos\IdentityProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Amin\source\repos\IdentityProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Amin\source\repos\IdentityProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Amin\source\repos\IdentityProject\obj\Debug\net8.0\IdentityProject.sourcelink.json
+C:\Users\Amin\source\repos\IdentityProject\bin\Debug\net8.0\MailKit.dll
+C:\Users\Amin\source\repos\IdentityProject\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Amin\source\repos\IdentityProject\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\Users\Amin\source\repos\IdentityProject\bin\Debug\net8.0\BouncyCastle.Crypto.dll
