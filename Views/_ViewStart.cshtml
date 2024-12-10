@@ -1,3 +1,8 @@
 ﻿@{
-    Layout = null;
+    var controllerName = ViewContext.RouteData.Values["controller"].ToString();
+
+    if (controllerName == "Account")
+        Layout = null;
+    else
+        Layout = "_SecondLayout";
 }

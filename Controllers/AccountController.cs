@@ -107,13 +107,7 @@ public class AccountController : Controller
 
     #endregion
 
-    [HttpGet]
-    public async Task<IActionResult> LogOut()
-    {
-        await _signInManager.SignOutAsync();
-        return RedirectToAction(nameof(Login));
-    }
-
+    #region ForgetPassword
 
     [HttpGet]
     public IActionResult ForgetPassword()
@@ -140,6 +134,10 @@ public class AccountController : Controller
         ViewBag.NotificationText = "Mail sent successfully";
         return View("Notification");
     }
+
+    #endregion
+
+    #region ResetPassword
 
     [HttpGet]
     public IActionResult ResetPassword()
@@ -168,6 +166,54 @@ public class AccountController : Controller
             return View(model);
         }
 
+        return RedirectToAction(nameof(Login));
+    }
+
+    #endregion
+
+    [HttpPost]
+    public IActionResult Subscribe(string email)
+    {
+        if (!ModelState.IsValid) return View();
+
+        var user = _userManager.FindByEmailAsync(email).Result;
+        if (user is null)
+        {
+            ModelState.AddModelError("Email", "User not found");
+            return View();
+        }
+        
+        var token = _userManager.GenerateEmailConfirmationTokenAsync(user).Result;
+        var url = Url.Action(nameof(ConfirmSubscription), "Account", new { token, user.Email }, Request.Scheme);
+        _emailService.SendMessage(new Message(new List<string> { user.Email }, "Confirm subscription", url));
+
+        ViewBag.NotificationText = "Mail sent successfully";
+        return View("Notification");
+    }
+
+	public IActionResult ConfirmSubscription(string email, string token)
+	{
+		var user = _userManager.FindByEmailAsync(email).Result;
+		if (user is null) return NotFound();
+
+        user.IsSubscribed = true;
+
+		var updateResult = _userManager.UpdateAsync(user).Result;
+		if (!updateResult.Succeeded)
+		{
+			foreach (var error in updateResult.Errors)
+				ModelState.AddModelError(string.Empty, error.Description);
+
+			return View();
+		}
+
+        return RedirectToAction("Index", "Home");
+	}
+
+	[HttpGet]
+    public async Task<IActionResult> LogOut()
+    {
+        await _signInManager.SignOutAsync();
         return RedirectToAction(nameof(Login));
     }
 }

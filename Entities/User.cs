@@ -6,5 +6,6 @@ namespace IdentityProject.Entities
     {
         public string City { get; set; }
         public string Country { get; set; }
+        public bool IsSubscribed { get; set; }
     }
 }
