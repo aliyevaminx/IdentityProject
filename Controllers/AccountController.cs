@@ -174,7 +174,7 @@ public class AccountController : Controller
     [HttpPost]
     public IActionResult Subscribe(string email)
     {
-        if (!ModelState.IsValid) return View();
+        if (!ModelState.IsValid) return NotFound();
 
         var user = _userManager.FindByEmailAsync(email).Result;
         if (user is null)

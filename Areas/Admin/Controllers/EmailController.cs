@@ -51,7 +51,7 @@ public class EmailController : Controller
             _emailService.SendMessage(new Message(new List<string> { user.Email }, model.Subject, messageContent));
         }
 
-        TempData["Message"] = $"Emails sent to {users.Count} {((model.ReceiverType == Constants.ReceiverType.AllUsers) ? "all users" : "subscribers")}.";
+        TempData["Message"] = $"Emails sent to {users.Count} {((model.ReceiverType == Constants.ReceiverType.AllUsers) ? "users" : "subscribers")}.";
         return RedirectToAction("SendEmail");
 
     }
