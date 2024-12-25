@@ -7457,6 +7457,34 @@
       "PackagePath": "staticwebassets\\main-assets\\css\\templatemo.min.css"
     },
     {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\01e83a53-c8c3-494a-b4d9-0246ecea3607_shop_05.jpg",
+      "PackagePath": "staticwebassets\\main-assets\\img\\01e83a53-c8c3-494a-b4d9-0246ecea3607_shop_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\08f36d0c-416d-4a97-b9cd-418b35852c0f_shop_09.jpg",
+      "PackagePath": "staticwebassets\\main-assets\\img\\08f36d0c-416d-4a97-b9cd-418b35852c0f_shop_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\6846ea21-ce31-425b-80fd-00b76b6541b8_shop_01.jpg",
+      "PackagePath": "staticwebassets\\main-assets\\img\\6846ea21-ce31-425b-80fd-00b76b6541b8_shop_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\795c85b6-f8e4-49f6-b461-91c85be90089_shop_04.jpg",
+      "PackagePath": "staticwebassets\\main-assets\\img\\795c85b6-f8e4-49f6-b461-91c85be90089_shop_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\7da16c16-e32b-4c8d-9135-149e1927043d_shop_01.jpg",
+      "PackagePath": "staticwebassets\\main-assets\\img\\7da16c16-e32b-4c8d-9135-149e1927043d_shop_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\a2235a36-2441-4c52-9720-ae071b840f72_shop_01.jpg",
+      "PackagePath": "staticwebassets\\main-assets\\img\\a2235a36-2441-4c52-9720-ae071b840f72_shop_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\a484f6d6-9f3f-413a-aa79-c1d0d33be8da_shop_02.jpg",
+      "PackagePath": "staticwebassets\\main-assets\\img\\a484f6d6-9f3f-413a-aa79-c1d0d33be8da_shop_02.jpg"
+    },
+    {
       "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\about-hero.svg",
       "PackagePath": "staticwebassets\\main-assets\\img\\about-hero.svg"
     },
@@ -7497,6 +7525,10 @@
       "PackagePath": "staticwebassets\\main-assets\\img\\brand_04.png"
     },
     {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\c03891ae-4b54-41d3-88bd-f634f40d441c_shop_02.jpg",
+      "PackagePath": "staticwebassets\\main-assets\\img\\c03891ae-4b54-41d3-88bd-f634f40d441c_shop_02.jpg"
+    },
+    {
       "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\category_img_01.jpg",
       "PackagePath": "staticwebassets\\main-assets\\img\\category_img_01.jpg"
     },
@@ -7507,6 +7539,10 @@
     {
       "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\category_img_03.jpg",
       "PackagePath": "staticwebassets\\main-assets\\img\\category_img_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\f85ca034-a7a1-4257-b728-049ca5efff59_shop_07.jpg",
+      "PackagePath": "staticwebassets\\main-assets\\img\\f85ca034-a7a1-4257-b728-049ca5efff59_shop_07.jpg"
     },
     {
       "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\img\\favicon.ico",
@@ -7609,6 +7645,10 @@
       "PackagePath": "staticwebassets\\main-assets\\img\\shop_11.jpg"
     },
     {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\js\\basket.js",
+      "PackagePath": "staticwebassets\\main-assets\\js\\basket.js"
+    },
+    {
       "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\main-assets\\js\\bootstrap.bundle.min.js"
     },
@@ -7623,6 +7663,10 @@
     {
       "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\js\\jquery-migrate-1.2.1.min.js",
       "PackagePath": "staticwebassets\\main-assets\\js\\jquery-migrate-1.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\js\\shop.js",
+      "PackagePath": "staticwebassets\\main-assets\\js\\shop.js"
     },
     {
       "Id": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\wwwroot\\main-assets\\js\\slick.min.js",

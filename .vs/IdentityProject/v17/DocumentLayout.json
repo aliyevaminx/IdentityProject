@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\areas\\admin\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:areas\\admin\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\migrations\\20241221055946_orderandorderproductadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:migrations\\20241221055946_orderandorderproductadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|c:\\users\\amin\\source\\repos\\identityproject\\constants\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6CBA5C-23E5-4CB2-81C3-A6130B011C5E}|IdentityProject.csproj|solutionrelative:constants\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,34 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmailController.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Areas\\Admin\\Controllers\\EmailController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\EmailController.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Areas\\Admin\\Controllers\\EmailController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\EmailController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T05:53:54.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAkwL4AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T05:51:03.208Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -53,6 +51,104 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241221055946_OrderAndOrderProductAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Migrations\\20241221055946_OrderAndOrderProductAdded.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241221055946_OrderAndOrderProductAdded.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Migrations\\20241221055946_OrderAndOrderProductAdded.cs",
+              "RelativeToolTip": "Migrations\\20241221055946_OrderAndOrderProductAdded.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T05:59:46.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T05:55:13.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T20:19:52.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Entities\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "Entities\\OrderProduct.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Entities\\OrderProduct.cs",
+              "RelativeToolTip": "Entities\\OrderProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T20:13:09.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Entities\\Order.cs",
+              "RelativeToolTip": "Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T20:13:01.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Constants\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Constants\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Constants\\OrderStatus.cs",
+              "RelativeToolTip": "Constants\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T20:12:43.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Views\\Basket\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Basket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Views\\Basket\\Index.cshtml",
+              "RelativeToolTip": "Views\\Basket\\Index.cshtml",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAJYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T20:04:21.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\IdentityProject\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwDAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T20:03:18.173Z"
             }
           ]
         }

@@ -1,0 +1,12 @@
+﻿@using IdentityProject.Areas.Admin.Models.ProductCategory
+@model ProductCategoryCreateVM
+
+<form method="post" asp-action="Create" asp-controller="ProductCategory">
+	<div class="form-group">
+		<label asp-for="Name" class="form-label"></label>
+		<input asp-for="Name" class="form-control" placeholder="Enter title" />
+		<span asp-validation-for="Name" class="text-danger"></span>
+	</div>
+	<button type="submit" class="btn btn-primary">Create</button>
+	<a class="btn btn-danger" asp-action="Index" asp-controller="ProductCategory">Back</a>
+</form>

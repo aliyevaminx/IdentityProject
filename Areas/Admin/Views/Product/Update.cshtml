@@ -1,0 +1,40 @@
+﻿@using IdentityProject.Areas.Admin.Models.Product
+@model ProductUpdateVM
+
+<form enctype="multipart/form-data" method="post" asp-action="Update" asp-controller="Product">
+	<div class="form-group">
+		<label asp-for="Title" class="form-label"></label>
+		<input asp-for="Title" class="form-control" placeholder="Enter title" />
+		<span asp-validation-for="Title" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="ProductCategoryId" class="form-label"></label>
+		<select class="w-100 p-1 rounded" asp-for="ProductCategoryId" asp-items="Model.ProductCategories"></select>
+	</div>
+	<div class="form-group">
+		<label asp-for="Size" class="form-label"></label>
+		<input asp-for="Size" class="form-control" placeholder="Enter size" />
+		<span asp-validation-for="Size" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Price" class="form-label"></label>
+		<input asp-for="Price" class="form-control" placeholder="Enter Price" />
+		<span asp-validation-for="Price" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="StockCount" class="form-label"></label>
+		<input asp-for="StockCount" class="form-control" placeholder="Enter stock count" />
+		<span asp-validation-for="StockCount" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Photo" class="form-label"></label>
+		<br/>
+		<img class="w-50" src="~/main-assets/img/@Model.PhotoName"/>
+		<br/>
+		<br/>
+		<input asp-for="Photo" class="form-control" placeholder="Select Photo" />
+		<span asp-validation-for="Photo" class="text-danger"></span>
+	</div>
+	<button type="submit" class="btn btn-primary">Update</button>
+	<a class="btn btn-danger" asp-action="Index" asp-controller="Product">Back</a>
+</form>
